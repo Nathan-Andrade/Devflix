@@ -7,9 +7,9 @@ import useForm from '../../../hooks/useForm';
 
 function CadastroCategoria() {
   const valoresIniciais = {
-    name: '',
-    description: '',
-    color: '',
+    titulo: '',
+    descricao: '',
+    cor: '',
   };
 
   const { handleChange, values, clearForm } = useForm(valoresIniciais);
@@ -49,7 +49,7 @@ function CadastroCategoria() {
     <PageDefault>
       <h1>
         Cadastro de Categoria:
-        {values.name}
+        {values.titulo}
       </h1>
 
       <form onSubmit={function handleSubmit(infosDoEvento) {
@@ -66,24 +66,24 @@ function CadastroCategoria() {
         <FormField
           label="Nome da Categoria"
           type="text"
-          name="name"
-          value={values.name}
+          name="titulo"
+          value={values.titulo}
           onChange={handleChange}
         />
 
         <FormField
           label="Descrição"
           type="textarea"
-          name="description"
-          value={values.description}
+          name="descricao"
+          value={values.descricao}
           onChange={handleChange}
         />
 
         <FormField
           label="Color"
           type="color"
-          name="color"
-          value={values.color}
+          name="cor"
+          value={values.cor}
           onChange={handleChange}
         />
 
