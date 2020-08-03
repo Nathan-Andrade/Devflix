@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 import React, { useEffect, useState } from 'react';
 // import dadosIniciais from '../../data/dados_iniciais.json';
 import BannerMain from '../../components/BannerMain';
@@ -9,6 +8,7 @@ import categoriasRepository from '../../repositories/categorias';
 function Home() {
   const [dadosIniciais, setDadosIniciais] = useState([]);
 
+  // eslint-disable-next-line
   useEffect(() => {
     // http://localhost:8080/categorias?_embed=videos
     categoriasRepository.getAllWithVideos()

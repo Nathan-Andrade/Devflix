@@ -17,7 +17,6 @@ function CadastroCategoria() {
   const [categorias, setCategorias] = useState([]);
 
   useEffect(() => {
-    console.log('alooooooo');
     const url = 'http://localhost:8080/categorias';
     fetch(url)
       .then(async (respostaDoServidor) => {
@@ -50,7 +49,6 @@ function CadastroCategoria() {
     <PageDefault>
       <h1>
         Cadastro de Categoria:
-        {' '}
         {values.name}
       </h1>
 
