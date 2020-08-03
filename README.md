@@ -4,7 +4,7 @@ Um projeto desenvolvido com os mesmos aspectos da Netflix, porém para os Desenv
 
 ![](https://img.shields.io/github/languages/top/Nathan-Andrade/Devflix?color=%23e50914) ![](https://img.shields.io/github/languages/count/Nathan-Andrade/Devflix?color=%23e50914) ![](https://img.shields.io/github/repo-size/Nathan-Andrade/Devflix?color=%23e50914) ![](https://img.shields.io/github/last-commit/Nathan-Andrade/Devflix?color=%23e50914)
 
-![](https://github.com/Nathan-Andrade/Devflix/blob/master/github/gifDesktop-1%C2%B0dia.gif?raw=true)![](https://github.com/Nathan-Andrade/Devflix/blob/master/github/gifResponsive-1%C2%B0dia.gif?raw=true)
+![](https://github.com/Nathan-Andrade/Devflix/blob/master/github/gifDaAplica%C3%A7%C3%A3o.gif?raw=true)![](https://github.com/Nathan-Andrade/Devflix/blob/master/github/gifDaAplica%C3%A7%C3%A3oResponsivo.gif?raw=true)
 
 # :airplane: Bibliotecas e Tecnologias
 - <a href="https://pt-br.reactjs.org/docs/create-a-new-react-app.html">React js</a>
@@ -45,6 +45,9 @@ Ter um editor de textos, eu recomendo o <a href="https://code.visualstudio.com/"
     
      // Instale o json-server em modo desenvolvedor
     $ npm install  json-server -D
+	
+	 // Logo após rode no terminal
+    $ npm run dev
 
 ------------
 ###### Desenvolvido por Nathan de Andrade <a href="https://www.linkedin.com/in/nathan-a-1b9436124/">Entrar em contato!</a>
